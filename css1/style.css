@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a5ff71;
+    background-image: url("back2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}h1, h2{
+    color: #0a66c2;
+}
+
+p{
+    color: #333;
+    line-height: 1.5;
+}
+
+#subtitulo{
+    color: green;
+    font-size: 2rem;
+}
+
+.aviso{
+    background-color: #fff3cd;
+    color: #664d03;
+    padding: 8px;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+}
+
+.caixa3{
+    width: 400px;
+    min-height: 300px;
+    max-width: 100%;
+    background: rgb(199, 135, 135);
+}
