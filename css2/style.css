@@ -15,7 +15,7 @@
     width: 100%;
 }
 .tabela th, .tabela td {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     padding: 8px;
     text-align: left;
 }
