@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Adivinhe o número de 1 a 100</h1>
+        <div id="info">
+            <!-- <button id="startBt">Iniciar</button> -->
+            <p id="letreiro">5 é mais próximo</p>
+            
+            <button id="chute">Chutar</button>
+        </div>
+        <div id="players">
+            <div id="player1" class="player">
+                <h3>Player 1</h3>
+                <input type="number" id="player1Input" max="100" min="1">
+
+                <h4>Histórico</h4>
+                <ul id="hist1">
+                    <!-- <li>O número 3 é menor</li>
+                    <li>O número 8 é maior, porém, é o mais próximo</li>
+                    <li>Chutou 5</li> -->
+                </ul>
+            </div>
+
+
+            <div id="player2" class="player">
+                <h3>Player 2</h3>
+                <input type="number" id="player2Input" max="100" min="1">
+
+                <h4>Histórico</h4>
+                <ul id="hist2">
+                    <!-- <li>O número 4 é menor, porém, é mais próximo</li>
+                    <li>O número 10 é maior</li>
+                    <li>Chutou 6</li> -->
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
