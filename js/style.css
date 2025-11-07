@@ -46,7 +46,6 @@ input{
     width: 50%;
     height: 250px;
     overflow-y: scroll;
-    background-color: red;
 
     flex-direction: column;
     justify-content: flex-start;
